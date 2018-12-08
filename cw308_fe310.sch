@@ -1242,22 +1242,6 @@ F1 "usb_to_jtag.sch" 50
 $EndSheet
 NoConn ~ 2650 3600
 NoConn ~ 2750 3600
-Text GLabel 2550 3750 3    50   Output ~ 0
-UFO.JTAG_TCK
-Text GLabel 2350 3750 3    50   Input ~ 0
-UFO.JTAG_TDO
-Text GLabel 2450 3750 3    50   Output ~ 0
-UFO.JTAG_TMS
-Text GLabel 2250 3750 3    50   Output ~ 0
-UFO.JTAG_TDI
-Wire Wire Line
-	2250 3750 2250 3600
-Wire Wire Line
-	2350 3750 2350 3600
-Wire Wire Line
-	2450 3750 2450 3600
-Wire Wire Line
-	2550 3750 2550 3600
 NoConn ~ 4550 2600
 NoConn ~ 4550 2400
 NoConn ~ 4550 2200
@@ -1265,10 +1249,6 @@ Wire Wire Line
 	3850 7250 3850 6700
 Wire Wire Line
 	2800 7250 3850 7250
-Text GLabel 2150 3750 3    50   Output ~ 0
-UFO.JTAG_TRST
-Wire Wire Line
-	2150 3750 2150 3600
 NoConn ~ 3050 3600
 NoConn ~ 3150 3600
 NoConn ~ 3250 3600
@@ -1285,4 +1265,9 @@ U 5C398CA4
 F0 "jumpers" 50
 F1 "jumpers.sch" 50
 $EndSheet
+NoConn ~ 2150 3600
+NoConn ~ 2250 3600
+NoConn ~ 2350 3600
+NoConn ~ 2450 3600
+NoConn ~ 2550 3600
 $EndSCHEMATC
