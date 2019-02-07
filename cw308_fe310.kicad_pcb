@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1)
 
   (general
     (thickness 1.6)
@@ -58,6 +58,7 @@
     (pad_size 0.65 0.2)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFFF)
     (pcbplotparams
@@ -252,7 +253,7 @@
     (add_net VCC_CLEAN)
   )
 
-  (module CW308T_CONNBOARD (layer F.Cu) (tedit 5C0C467B) (tstamp 5C115208)
+  (module CW308T_CONNBOARD locked (layer F.Cu) (tedit 5C0C467B) (tstamp 5C115208)
     (at 121.678701 67.0306)
     (path /5C02CEF7)
     (attr virtual)
@@ -407,7 +408,7 @@
     (pad MH3 thru_hole circle (at 22.86 45.72 90) (size 6.35 6.35) (drill 3.4036) (layers *.Cu *.Paste *.Mask))
   )
 
-  (module Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm (layer F.Cu) (tedit 5C0C44D2) (tstamp 5C0FD8E5)
+  (module Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm locked (layer F.Cu) (tedit 5C0C44D2) (tstamp 5C0FD8E5)
     (at 135.52678 79.88554 90)
     (descr "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
@@ -461,7 +462,7 @@
     )
   )
 
-  (module digikey-footprints:SOT-753 (layer F.Cu) (tedit 5C0C455D) (tstamp 5C0FA68F)
+  (module digikey-footprints:SOT-753 locked (layer F.Cu) (tedit 5C0C455D) (tstamp 5C0FA68F)
     (at 161.0741 78.76286 90)
     (path /5C39BBBC)
     (fp_text reference U2 (at 2.76286 -1.5741 90) (layer F.SilkS) hide
@@ -504,7 +505,7 @@
       (net 54 "Net-(U2-Pad1)") (solder_mask_margin 0.07))
   )
 
-  (module digikey-footprints:SOT-753 (layer F.Cu) (tedit 5C0C4559) (tstamp 5C0FA6AC)
+  (module digikey-footprints:SOT-753 locked (layer F.Cu) (tedit 5C0C4559) (tstamp 5C0FA6AC)
     (at 161.07156 82.50428 90)
     (path /5C39BB2A)
     (fp_text reference U3 (at -2.99572 -1.07156 90) (layer F.SilkS) hide
@@ -547,7 +548,7 @@
       (net 3 +1V8) (solder_mask_margin 0.07))
   )
 
-  (module Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm_ThermalVias (layer F.Cu) (tedit 5C0C44CA) (tstamp 5C0FA70C)
+  (module Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm_ThermalVias locked (layer F.Cu) (tedit 5C0C44CA) (tstamp 5C0FA70C)
     (at 151.3586 79.8576)
     (descr "48-Lead Plastic Quad Flat, No Lead Package - 6x6 mm Body [QFN] with thermal vias; see figure 7.2 of https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1.0.4.pdf")
     (tags "QFN 0.4")
@@ -726,7 +727,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101B9C)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101B9C)
     (at 131.03606 76.79436 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -762,7 +763,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BAC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BAC)
     (at 165.2651 81.44256)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -798,7 +799,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BBC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BBC)
     (at 164.29482 85.6742 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -834,7 +835,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BCC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BCC)
     (at 163.1696 72.1868 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -870,7 +871,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BDC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BDC)
     (at 156.45892 84.81568 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -906,7 +907,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BEC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BEC)
     (at 146.84248 84.79158 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -942,7 +943,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BFC)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101BFC)
     (at 155.90774 77.97546 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -978,7 +979,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C0C)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C0C)
     (at 147.5 74.2315 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -1014,7 +1015,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C1C)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C1C)
     (at 154.45994 85.69198 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -1050,7 +1051,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C2C)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C2C)
     (at 145.30324 80.93964 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -1086,7 +1087,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C3C)
+  (module Capacitor_SMD:C_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBE) (tstamp 5C101C3C)
     (at 143.79702 80.93964 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -1168,7 +1169,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C66)
+  (module Resistor_SMD:R_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C66)
     (at 161.2138 70.4596 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1204,7 +1205,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C76)
+  (module Resistor_SMD:R_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C76)
     (at 158.0007 84.80806 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1240,7 +1241,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C86)
+  (module Resistor_SMD:R_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C86)
     (at 152.10536 84.81568)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1276,7 +1277,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C96)
+  (module Resistor_SMD:R_0603_1608Metric locked (layer F.Cu) (tedit 5B301BBD) (tstamp 5C101C96)
     (at 142.28826 80.94726 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2103,17 +2104,6 @@
   (segment (start 125.5 71.242081) (end 125.5 70.04) (width 0.25) (layer B.Cu) (net 12))
   (segment (start 122.428001 84.8106) (end 125.5 81.738601) (width 0.25) (layer B.Cu) (net 12))
   (segment (start 121.678701 84.8106) (end 122.428001 84.8106) (width 0.25) (layer B.Cu) (net 12))
-  (segment (start 153.1586 76.9326) (end 153.1586 76.178) (width 0.25) (layer F.Cu) (net 75))
-  (segment (start 153.1586 76.178) (end 153.67 75.6666) (width 0.25) (layer F.Cu) (net 75))
-  (via (at 153.670002 71.9836) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75))
-  (segment (start 153.670002 72.549285) (end 153.67 72.549287) (width 0.25) (layer F.Cu) (net 75))
-  (segment (start 153.67 72.549287) (end 153.67 75.6666) (width 0.25) (layer F.Cu) (net 75))
-  (segment (start 153.670002 71.9836) (end 153.670002 72.549285) (width 0.25) (layer F.Cu) (net 75))
-  (segment (start 153.270003 71.583601) (end 153.670002 71.9836) (width 0.25) (layer B.Cu) (net 75))
-  (segment (start 152.349202 70.6628) (end 153.270003 71.583601) (width 0.25) (layer B.Cu) (net 75))
-  (via (at 152.7556 72.7456) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 76))
-  (segment (start 152.7586 76.9326) (end 152.7586 72.7486) (width 0.25) (layer F.Cu) (net 76))
-  (segment (start 152.7586 72.7486) (end 152.7556 72.7456) (width 0.25) (layer F.Cu) (net 76))
   (via (at 131.0132 89.26322) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 14))
   (segment (start 130.613201 89.663219) (end 131.0132 89.26322) (width 0.25) (layer F.Cu) (net 14))
   (segment (start 130.38582 89.8906) (end 130.613201 89.663219) (width 0.25) (layer F.Cu) (net 14))
@@ -2602,8 +2592,19 @@
   (segment (start 169.189401 115.2906) (end 169.938701 115.2906) (width 0.25) (layer B.Cu) (net 74))
   (segment (start 152 73.3) (end 162.5 73.3) (width 0.25) (layer B.Cu) (net 74))
   (segment (start 162.5 73.3) (end 167.8 78.6) (width 0.25) (layer B.Cu) (net 74))
+  (segment (start 153.1586 76.9326) (end 153.1586 76.178) (width 0.25) (layer F.Cu) (net 75))
+  (segment (start 153.1586 76.178) (end 153.67 75.6666) (width 0.25) (layer F.Cu) (net 75))
+  (via (at 153.670002 71.9836) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75))
+  (segment (start 153.670002 72.549285) (end 153.67 72.549287) (width 0.25) (layer F.Cu) (net 75))
+  (segment (start 153.67 72.549287) (end 153.67 75.6666) (width 0.25) (layer F.Cu) (net 75))
+  (segment (start 153.670002 71.9836) (end 153.670002 72.549285) (width 0.25) (layer F.Cu) (net 75))
+  (segment (start 153.270003 71.583601) (end 153.670002 71.9836) (width 0.25) (layer B.Cu) (net 75))
+  (segment (start 152.349202 70.6628) (end 153.270003 71.583601) (width 0.25) (layer B.Cu) (net 75))
   (segment (start 149.186402 67.5) (end 153.670002 71.9836) (width 0.25) (layer B.Cu) (net 75))
   (segment (start 128.04 67.5) (end 149.186402 67.5) (width 0.25) (layer B.Cu) (net 75))
+  (via (at 152.7556 72.7456) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 76))
+  (segment (start 152.7586 76.9326) (end 152.7586 72.7486) (width 0.25) (layer F.Cu) (net 76))
+  (segment (start 152.7586 72.7486) (end 152.7556 72.7456) (width 0.25) (layer F.Cu) (net 76))
   (segment (start 128.04 70.04) (end 150.05 70.04) (width 0.25) (layer B.Cu) (net 76))
   (segment (start 151.234299 71.224299) (end 152.7556 72.7456) (width 0.25) (layer B.Cu) (net 76))
   (segment (start 150.05 70.04) (end 151.234299 71.224299) (width 0.25) (layer B.Cu) (net 76))
