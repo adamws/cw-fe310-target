@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name chipwhisperer)(type KiCad)(uri ${KIPRJMOD}/chipwhisperer.pretty)(options "")(descr ""))
+)
