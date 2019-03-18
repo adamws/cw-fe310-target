@@ -2083,28 +2083,6 @@ Wire Wire Line
 	18950 6500 19350 6500
 Wire Wire Line
 	14500 5700 14500 5850
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 5D0362DA
-P 12750 5150
-F 0 "J2" H 12830 5192 50  0000 L CNN
-F 1 "Conn_01x03" H 12830 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12750 5150 50  0001 C CNN
-F 3 "~" H 12750 5150 50  0001 C CNN
-	1    12750 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5D036386
-P 12750 5750
-F 0 "J3" H 12830 5792 50  0000 L CNN
-F 1 "Conn_01x03" H 12830 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12750 5750 50  0001 C CNN
-F 3 "~" H 12750 5750 50  0001 C CNN
-	1    12750 5750
-	1    0    0    -1  
-$EndComp
 Text GLabel 12300 5150 0    50   Output ~ 0
 RX
 Wire Wire Line
@@ -2117,18 +2095,18 @@ Text GLabel 12300 5250 0    50   Input ~ 0
 FT_TX
 Wire Wire Line
 	12300 5250 12550 5250
-Text GLabel 12300 5750 0    50   Input ~ 0
+Text GLabel 13300 5150 2    50   Input ~ 0
 TX
 Wire Wire Line
-	12300 5750 12550 5750
-Text GLabel 12300 5650 0    50   Output ~ 0
+	13300 5150 13050 5150
+Text GLabel 13300 5050 2    50   Output ~ 0
 GPIO2
 Wire Wire Line
-	12300 5650 12550 5650
-Text GLabel 12300 5850 0    50   Output ~ 0
+	13300 5050 13050 5050
+Text GLabel 13300 5250 2    50   Output ~ 0
 FT_RX
 Wire Wire Line
-	12300 5850 12550 5850
+	13300 5250 13050 5250
 $Comp
 L chipwhisperer:CW308T_CONNBOARD J1
 U 1 1 5C02CEF7
@@ -2139,5 +2117,16 @@ F 2 "chipwhisperer:CW308T_CONNBOARD" H 2280 2150 20  0001 C CNN
 F 3 "" H 2250 2000 60  0001 C CNN
 	1    2250 2000
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5C9A8DE8
+P 12850 5150
+F 0 "J2" H 12900 5467 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 12900 5376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12850 5150 50  0001 C CNN
+F 3 "~" H 12850 5150 50  0001 C CNN
+	1    12850 5150
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
